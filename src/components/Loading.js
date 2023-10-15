@@ -1,10 +1,14 @@
-import React from 'react'
+// Importa la biblioteca React
+import React from 'react';
 
+// Crea un componente funcional llamado 'Loading'
 const Loading = () => {
- return (
-  <div className="loader">
-  </div>
- )
+  return (
+    // Renderiza un elemento div con la clase "loader", que se utiliza para mostrar una animación de carga
+    <div className="loader">
+    </div>
+  );
 }
 
-export default Loading
+// Exporta el componente 'Loading' para que pueda ser utilizado en otros lugares de la aplicación
+export default Loading;
